@@ -1,0 +1,65 @@
+html,
+body {
+  height: 100%;
+}
+
+body {
+  margin: 0;
+}
+
+.wrapper {
+  display: grid;
+  font-family: -apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Oxygen,Ubuntu,Fira Sans,Droid Sans,Helvetica Neue,sans-serif;
+  height: 100%;
+}
+
+.sidebar-section {
+  background-color: rgb(7, 71, 166);
+}
+
+.sidebar-section * {
+  color: rgb(222, 235, 255);
+}
+
+.sidebar-header {
+  text-align: center;
+}
+.sidebar-section ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.sidebar-section ul button {
+  border: none;
+  background: none;
+  outline: none;
+  font-size: 18px;
+  width: 100%;
+  padding: 1rem 0;
+}
+
+.sidebar-section ul button:hover {
+  background-color: rgba(9, 30, 66, 0.42);
+  cursor: pointer;
+}
+
+.chart-section {
+  padding: 10px;
+}
+
+@media screen and (min-width: 992px) {
+  .wrapper {
+    grid-template-columns: 20% auto;
+  }
+}
+
+@media screen and (max-width: 992px) {
+  .wrapper {
+    grid-template-rows: 100% 100%;
+    height: initial;
+  }
+
+  .sidebar-section {
+    height: max-content;
+  }
+}
