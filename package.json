@@ -1,0 +1,32 @@
+
+{
+  "name": "workshopblockchain",
+  "version": "1.0.0",
+  "description": "A DApp for decentralized secure voting",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/datruic/vote_dapp.git"
+  },
+  "keywords": [
+    "DApp",
+    "Blockchain",
+    "Ethereum"
+  ],
+  "author": "Parth Pokar ppokar42@gmail.com",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/datruic/vote_dapp/issues"
+  },
+  "homepage": "https://github.com/datruic/vote_dapp#readme",
+  "dependencies": {
+    "abi-decoder": "^1.1.0",
+    "fs": "0.0.1-security",
+    "promise": "^8.0.1",
+    "sha1": "^1.1.1",
+    "solc": "^0.4.24",
+    "web3": "^0.20.6"
+  }
+}
